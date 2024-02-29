@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #001219;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content {
+  background-color: #0a9396;
+  border-radius: 12px;
+  height: 30em;
+  width: 23em;
+  padding-top: 30px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  border: solid #ca6702;
+}
+.profile-data {
+  /* background-color: brown; */
+  padding: 15px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-btn {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.btn-git,
+.btn-lkn,
+.btn-inst,
+.btn-wpp {
+  background-color: #e9d8a6;
+  padding: 5px 100px;
+  border-radius: 5px;
+}
+
+.btn-git:hover,
+.btn-lkn:hover,
+.btn-inst:hover,
+.btn-wpp:hover {
+  background-color: #aec3b0; /* Change the color to the desired hover color */
+}
